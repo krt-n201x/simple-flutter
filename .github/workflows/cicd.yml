@@ -35,5 +35,5 @@ jobs:
       - name: Archive aab artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: apk
+          name: aab
           path: build/app/outputs/bundle/release/app-release.aab
